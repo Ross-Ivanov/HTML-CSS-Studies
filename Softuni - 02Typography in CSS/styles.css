@@ -20,9 +20,12 @@ article> span:first-child {
     color: red;
     font-weight: bold;
     }
-
-*/
 p:first-of-type {
     background-color: blue;
-}
+    }
 
+*/
+
+article> span:last-child {
+    color: red;
+    }
