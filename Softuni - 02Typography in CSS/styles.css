@@ -23,9 +23,11 @@ article> span:first-child {
 p:first-of-type {
     background-color: blue;
     }
-
-*/
-
 article> span:last-child {
     color: red;
+    }
+*/
+
+p:last-of-type {
+    background-color: yellow;
     }
