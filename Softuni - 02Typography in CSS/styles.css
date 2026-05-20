@@ -1,12 +1,28 @@
 /* for the matter of this exercise i will use same files and just comment the previous attributes
 
-article p {background-color: yellow;}
-span {color: red;}
-p { text-decoration: underline;}
-article > code { text-decoration: line-through;}
+article p {
+    background-color: yellow;
+    }
 
-*/
+span {
+    color: red;
+    }
+
+p {
+    text-decoration: underline;
+    }
+
+article > code {
+    text-decoration: line-through;
+    }
 
 article> span:first-child {
-     color: red;
-    font-weight: bold;}
+    color: red;
+    font-weight: bold;
+    }
+
+*/
+p:first-of-type {
+    background-color: blue;
+}
+
