@@ -26,8 +26,12 @@ p:first-of-type {
 article> span:last-child {
     color: red;
     }
-*/
-
 p:last-of-type {
     background-color: yellow;
     }
+*/
+
+span:nth-child(odd) {
+    background-color:red;
+    color: white;
+}
