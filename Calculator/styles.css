@@ -4,11 +4,12 @@ body {
 
 #calculator-container {
     border-radius: 10px;
-    max-width: 15%;
+    max-width: 300px;
     margin: 5px auto;
     padding: 15px;
     background-color: rgba(0, 0, 0, 0.850);
 }
+
 #result {
     width: 100%;
     padding: 10px;
@@ -20,20 +21,47 @@ body {
     color: white;
     font-size: 24px;
 }
-.buttons {
-    width: 60px;
-    height: 60px;
-    margin: 2px;
-    border-radius: 5px;
-    background-color: rgb(133, 123, 123);
-}
-.buttons:hover, #equals:hover {
-    background-color: rgb(54, 54, 54);
-    cursor: pointer;
+
+#buttons-wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    margin-top: 10px;
 }
 
+.buttons {
+    padding: 5px;
+    font-size: 24px;
+    border: none;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5) inset;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    color: white;
+}
+
+#clear {
+    background-color: rgb(238, 5, 5);
+}
+#clear:hover {
+    background-color: rgba(238, 5, 5, 0.5);
+}
+.number, #decimal {
+    background-color: rgb(133, 123, 123);
+}
+.number:hover, #decimal:hover{
+    background-color: rgba(133, 123, 123, 0.5);
+}
 #equals {
-    background-color: rgb(206, 167, 238);
-    width: 60px;
-    height: 120px;
+    background-color: rgb(130, 130, 270);
+    grid-row: span 3;
+}
+#equals:hover {
+    background-color: rgba(130, 130, 270, 0.5);
+}
+.operator {
+    background-color: rgb(80, 44, 139);
+}
+.operator:hover {
+    background-color: rgba(80, 44, 139, 0.5);
 }
