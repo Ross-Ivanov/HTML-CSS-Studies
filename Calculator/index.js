@@ -26,7 +26,7 @@ function calculateResult() {
 }
 
 function addToResultWindow(pressedButton) {
-    resultFieldElement.value += pressedButton;
+        resultFieldElement.value += pressedButton;
 }
 
 function deleteLastCharacter(pressedButton) {
