@@ -46,6 +46,12 @@ body {
 #clear:hover {
     background-color: rgba(238, 5, 5, 0.5);
 }
+#backspace {
+    background-color: rgb(253, 94, 2);
+}
+#backspace:hover {
+    background-color: rgba(253, 94, 2, 0.5);
+}
 .number, #decimal {
     background-color: rgb(133, 123, 123);
 }
@@ -54,7 +60,7 @@ body {
 }
 #equals {
     background-color: rgb(130, 130, 270);
-    grid-row: span 3;
+    grid-row: span 2;
 }
 #equals:hover {
     background-color: rgba(130, 130, 270, 0.5);
