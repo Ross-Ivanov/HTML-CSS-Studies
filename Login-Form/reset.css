@@ -1,0 +1,41 @@
+/*Very basic css reset file*/
+/*Next lines reset the default margins and paddings*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*Next lines ensures that padding and borders
+are included in elemnts total widht and height*/
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/*By default links are blue and underlined
+which is really outdated nowdays those lines are removing that */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/*Remove the default bullets and indenation*/
+ul, ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/*Reassure different browsers wont apply their own font properties*/
+body {
+    line-height: 1.6;
+}
+
+/*Not sure if it will be needed but just in case, to avoid vertical scrolling*/
+html, body {
+    overflow-x: hidden;
+}
+button {
+    border: unset;
+}
