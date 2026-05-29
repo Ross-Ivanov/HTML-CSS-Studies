@@ -28,16 +28,11 @@ ul, ol {
 }
 
 /*Reassure different browsers wont apply their own font properties*/
-body{
-    font-family: system-ui, sans-serif;
-    line-height: 1.6;
-    padding: 0 1rem;
+body {
+font-family: system-ui, sans-serif;
+  line-height: 1.6;
 }
-
 /*Not sure if it will be needed but just in case, to avoid vertical scrolling*/
 html, body {
     overflow-x: hidden;
-}
-button {
-    border: unset;
 }

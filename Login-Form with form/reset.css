@@ -28,10 +28,8 @@ ul, ol {
 }
 
 /*Reassure different browsers wont apply their own font properties*/
-body{
-    font-family: system-ui, sans-serif;
+body {
     line-height: 1.6;
-    padding: 0 1rem;
 }
 
 /*Not sure if it will be needed but just in case, to avoid vertical scrolling*/

@@ -1,0 +1,9 @@
+* {
+  border: 1px solid black;
+}
+
+/*Mobile build*/
+.wrap {
+  max-width: 480px;
+  margin: 5px auto;
+}
